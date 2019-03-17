@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for View Tasks Component Check snapshot for add 1`] = `
+<ForwardRef(Bootstrap(Form))
+  noValidate={true}
+  onSubmit={[Function]}
+  validated={false}
+>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalTask"
+  >
+    <ForwardRef(ContextTransform)
+      column={true}
+      sm={2}
+    >
+      Task
+    </ForwardRef(ContextTransform)>
+    <ForwardRef(Bootstrap(Col))
+      sm={10}
+    >
+      <ForwardRef(ContextTransform)
+        data-test-id="task-name"
+        name="name"
+        onChange={[Function]}
+        placeholder="task"
+        required={true}
+        type="text"
+        value=""
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalCheck"
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(FormCheck))
+        checked={false}
+        data-test-id="task-priority"
+        label="High Priority"
+        name="highPriority"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalCompleted"
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(FormCheck))
+        checked={false}
+        data-test-id="task-status"
+        label="Mark Complete"
+        name="completed"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(Button))
+        data-test-id="submit-action"
+        type="submit"
+      >
+        Add
+      </ForwardRef(Bootstrap(Button))>
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+</ForwardRef(Bootstrap(Form))>
+`;
+
+exports[`Test for View Tasks Component Check snapshot for update 1`] = `
+<ForwardRef(Bootstrap(Form))
+  noValidate={true}
+  onSubmit={[Function]}
+  validated={false}
+>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalTask"
+  >
+    <ForwardRef(ContextTransform)
+      column={true}
+      sm={2}
+    >
+      Task
+    </ForwardRef(ContextTransform)>
+    <ForwardRef(Bootstrap(Col))
+      sm={10}
+    >
+      <ForwardRef(ContextTransform)
+        data-test-id="task-name"
+        name="name"
+        onChange={[Function]}
+        placeholder="task"
+        required={true}
+        type="text"
+        value="test"
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalCheck"
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(FormCheck))
+        checked={false}
+        data-test-id="task-priority"
+        label="High Priority"
+        name="highPriority"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+    controlId="formHorizontalCompleted"
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(FormCheck))
+        checked={false}
+        data-test-id="task-status"
+        label="Mark Complete"
+        name="completed"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+  <ForwardRef(Bootstrap(FormGroup))
+    as={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "defaultProps": undefined,
+        "propTypes": undefined,
+        "render": [Function],
+      }
+    }
+  >
+    <ForwardRef(Bootstrap(Col))
+      sm={
+        Object {
+          "offset": 2,
+          "span": 10,
+        }
+      }
+    >
+      <ForwardRef(Bootstrap(Button))
+        data-test-id="submit-action"
+        type="submit"
+      >
+        Update
+      </ForwardRef(Bootstrap(Button))>
+    </ForwardRef(Bootstrap(Col))>
+  </ForwardRef(Bootstrap(FormGroup))>
+</ForwardRef(Bootstrap(Form))>
+`;
