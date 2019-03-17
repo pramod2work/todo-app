@@ -19,7 +19,7 @@
     "cz": "git-cz",
     "dev:build": "cross-env BUILD_DOMAIN=devBuild TEST_DOMAIN=ci npm-run-all prod",
     "precommit:verify": "npm run lint",
-    "precommit-relaxed:test": "npm run test",
+    "precommit:test": "npm run test",
     "precommit:build": "npm run build",
     "prepush:verify": "npm run lint",
     "prepush-disabled:test": "npm run test",
