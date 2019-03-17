@@ -1,5 +1,5 @@
 const { DefinePlugin, LoaderOptionsPlugin } = require('webpack')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 
 const baseConfig = require('./base.config.js')
@@ -36,10 +36,10 @@ module.exports = (options = {}) => {
             ...baseConfig.module.rules,
             {
               test: /\.css$/,
-              use: ExtractTextPlugin.extract({
-                fallback: 'style-loader',
-                use: 'css-loader'
-              })
+              use: [
+                { loader: MiniCssExtractPlugin.loader },
+                'css-loader'
+              ]
             }
           ]
         }),
@@ -57,6 +57,12 @@ module.exports = (options = {}) => {
         new LoaderOptionsPlugin({
           minimize: true,
           debug: false
+        }),
+        new MiniCssExtractPlugin({
+          // Options similar to the same options in webpackOptions.output
+          // both options are optional
+          filename: '[name].css',
+          chunkFilename: '[id].css'
         })
       ],
       mode: 'production',
