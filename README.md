@@ -1,7 +1,8 @@
 # Todo Sample App
 
 ## Description
-Sample Todo App with skinned tasks to show production, dev build and unit test related tasks
+Sample Todo App with skinned tasks to show production build, dev build and unit test related tasks
+
 ## App is hosted on https://todo-app-from-skeleton.appspot.com/
 
 ## Scripts
